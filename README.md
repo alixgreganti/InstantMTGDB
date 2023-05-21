@@ -6,4 +6,4 @@ sudo docker stop imtgdb || true
 sudo docker rm imtgdb || true
 sudo docker rmi imtgdb || true
 sudo docker build -t imtgdb .
-sudo docker run -d -p 5000:5000 --name imtgdb imtgdb
+sudo docker run -d -p 3306:3306 --name imtgdb imtgdb
